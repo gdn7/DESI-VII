@@ -73,4 +73,4 @@ import pyLDAvis
 
 
 vis_data = gensimvis.prepare(ldamodel, doc_term_matrix, dictionary)
-pyLDAvis.display(vis_data)
+pyLDAvis.show(vis_data)
