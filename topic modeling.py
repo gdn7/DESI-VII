@@ -17,8 +17,8 @@ os.chdir("C:\\Users\\gdnir\\Desktop\\mit and me\\e-discovery")
 
 extracted_doc=open("extracted body.txt","r",encoding="utf8")
 print(extracted_doc.read())
-extracted_doc?
-```
+
+
 from nltk.corpus import stopwords 
 from nltk.stem.wordnet import WordNetLemmatizer
 import string
