@@ -5,7 +5,6 @@ Created on Tue Feb 28 12:09:17 2017
 
 @author: gdnir
 """
-
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import os
