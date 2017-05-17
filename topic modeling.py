@@ -11,7 +11,6 @@ import os
 import nltk
 nltk.download()
 
-
 os.chdir("C:\\Users\\gdnir\\Desktop\\mit and me\\e-discovery")
 
 extracted_doc=open("extracted body.txt","r",encoding="utf8")
