@@ -11,7 +11,7 @@ import os
 import nltk
 nltk.download()
 
-os.chdir("C:\\Users\\gdnir\\Desktop\\mit and me\\e-discovery")
+os.chdir("")
 
 extracted_doc=open("extracted body.txt","r",encoding="utf8")
 print(extracted_doc.read())
@@ -46,9 +46,6 @@ dictionary = corpora.Dictionary(doc_clean)
 doc_term_matrix = [dictionary.doc2bow(doc) for doc in doc_clean]
                                     
 ```
-
-
-
 
 ```
 # Creating the object for LDA model using gensim library
